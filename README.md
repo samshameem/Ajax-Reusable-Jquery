@@ -18,7 +18,7 @@ This executes a callback function on success.
 
 Any options you provide to 'ajax' will override the defaults jquery ajax.
 
-Default ajax options
+Default ajax options\n
 type = 'POST'
 dataType = 'json'
 
