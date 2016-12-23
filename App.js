@@ -17,7 +17,6 @@
 	p.initialize = function () {
 		// Init events
 		this._enableEvents();
-
 	};
 
 	// =========================================================================
@@ -27,6 +26,7 @@
 	// events
 	p._enableEvents = function () {
 		var o = this;
+		var formData = {};
 
 		o._request({
 			ajax:{
@@ -58,7 +58,7 @@
 			success : function(data,status,jqXHR){
 				source.function success(data);
 			}
-		}, ajax ))
+		}, ajax ));
 	};
 
 	// =========================================================================
