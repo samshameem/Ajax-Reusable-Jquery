@@ -13,3 +13,6 @@ _request({
     console.log(data);
   }
 });
+
+
+Any options you provide to 'ajax' will override the defaults jquery ajax.
