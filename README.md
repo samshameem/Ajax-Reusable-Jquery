@@ -21,3 +21,5 @@ Any options you provide to 'ajax' will override the defaults jquery ajax.
 Default ajax options
 type = 'POST'
 dataType = 'json'
+
+Dependencies: Jquery 1.0 +
