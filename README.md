@@ -3,15 +3,22 @@ Jquery prototype reusable ajax function, with option for localstorage and alert 
 
 
 How to use it.
+
 The function accepts 3 parameters
+
 	1. Trigger element.
+	
 	2. Args as defined by Ajax.
+	
 	3. Custom options.
+	
 	4. Callback function.
 
 
 ion.App._request(e, params, options, function(){
+
 	alert('Done');
+	
 });
 
 This executes a callback function only on success.
