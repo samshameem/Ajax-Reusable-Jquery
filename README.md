@@ -26,15 +26,16 @@ This executes a callback function only on success.
 Any options you provide to 'params' will override the defaults jquery ajax.
 
 Default options
-var defaults = {
-	msg: 'Processing...',
-	cancelAjax: false,
-	type: 'GET',
-	url: '',
-	target: false,
-	cache: false,
-	loading: false,
-	dataArray: '',
-}
+
+	defaults = {
+		msg: 'Processing...',
+		cancelAjax: false,
+		type: 'GET',
+		url: '',
+		target: false,
+		cache: false,
+		loading: false,
+		dataArray: '',
+	}
 
 Dependencies: Jquery 1.0 +
