@@ -15,11 +15,11 @@ The function accepts 3 parameters
 	4. Callback function.
 
 
-ion.App._request(e, params, options, function(){
+	ion.App._request(e, params, options, function(){
 
-	alert('Done');
+		alert('Done');
 	
-});
+	});
 
 This executes a callback function only on success.
 
